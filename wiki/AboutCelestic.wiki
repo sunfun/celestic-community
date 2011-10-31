@@ -1,5 +1,8 @@
-#summary README.TXT
+#summary About Celestic
 #labels Featured,Phase-Deploy
+
+<g:plusone size="medium"></g:plusone>
+
 = Introduction =
 Celestic Community is a web based collaborative platform <br>
 to manage software projects. Celestic is an <br>
