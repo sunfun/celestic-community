@@ -249,7 +249,7 @@ class Projects extends CActiveRecord
 			'params'=>array(
 				':project_id' => $project_id,
 			),
-			//'group'=>'t.budget_id',
+			'group'=>'t.budget_id',
 			'together'=>true,
 		));
 	}
@@ -262,6 +262,7 @@ class Projects extends CActiveRecord
 		$criteria->params = array(
 			':project_id' => $project_id,
 		);
+		$criteria->group = 't.status_id';
 		$criteria->order = 't.task_startDate ASC';
 		
 		return Tasks::model()->with('Status')->together()->find($criteria);
