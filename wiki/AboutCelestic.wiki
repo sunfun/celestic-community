@@ -1,0 +1,57 @@
+#summary README.TXT
+#labels Featured,Phase-Deploy
+= Introduction =
+Celestic Community is a web based collaborative platform <br>
+to manage software projects. Celestic is an <br>
+GNU General Public Licensed.
+
+== Site Url ==
+  * [http://qbit.com.mx/labs/celestic]
+  * [http://qbit.com.mx/labs/celestic/blog]
+  * [http://qbit.com.mx/labs/celestic/forum]
+
+== System Requirements ==
+Celestic Community requires a Apache web server, <br>
+PHP (5.0 or greater) and MySQL.
+
+== Recommended ==
+PHP 5.1.0 or above
+MySQL 4.1+
+Apache 2.0+
+
+  * PHP    : [http://www.php.net/ http://www.php.net/]
+  * MySQL  : [http://www.mysql.com/ http://www.mysql.com/]
+  * Apache : [http://www.apache.org/ http://www.apache.org/]
+
+== Installation ==
+  # Download Celestic from - [http://code.google.com/p/celestic-community/ http://code.google.com/p/celestic-community/]
+  # Download Yii Framework from - [http://www.yiiframework.com/download/ http://www.yiiframework.com/download/]
+  # Unpack Celestic and Yii Framework .. both at the same level folder
+  # Create database to use with Celestic
+  # Unpack compress file and open celestic/protected/config/db.php file and configure database parameters
+  # Upload to your web server
+  # Direct your browser to Celestic application URL
+
+If you have troubles configuring Yii Framework path, <br>
+please check Celestic/index.php<br>
+This version of Celestic was created using yii-1.1.8.r3324
+
+Once you have all set<br>
+You should be finished in a matter of minutes.
+
+For better performance (email and I18N), don't forget to configure <br>
+params parameters in celestic/protected/config/main.php
+
+== Bugs ==
+If you think you have discovered a bug in Celestic Community you should <br>
+report it! We keep track of all bugs and features at <br>
+https://code.google.com/p/celestic-community/. Create an account and <br>
+report the bug with as much information to help us reproduce it.
+
+== Following Along ==
+If you would like to keep up with current Celestic Community news/happenings <br>
+you can follow our Twitter account:
+
+@celesticMX<br>
+[http://twitter.com/celesticMX http://twitter.com/celesticMX]<br>
+news/happenings going on in the Celestic Community development/community.
